@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Nav-bar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container container-one">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo";>
+            </a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">     
+                <ul class="navbar-nav custom-navbar">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">LOGIN NOW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LIST YOUR GYM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CORPORATE WELLNESS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="nav-link dropdown-toggle droping" href="#" id="navbardrop" data-toggle="dropdown">
+                           Bangalore 
+                        </div>
+                        <div class="dropdown-menu ">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="heading">
+            <h1>BYGPASS</h1>
+            <h3>WHENEVER YOU WANT, WHEREVER YOU LIKE</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-xs-12">
+                <div class="grand">
+                    <div class="iconic icon-one">
+                        <i class="fas fa-map-marker-alt fa-2x"></i>
+                    </div>
+                    <div class="texture text-one">
+                        <p><small>A Pass that gives you access to <span>all fitness centre</span> around you.</small></p>
+                    </div>
+                </div>
+                <div class="father">
+                    <div class="iconic icon-two">
+                        <i class="fas fa-shopping-bag fa-2x"></i>
+                    </div>
+                    <div class="texture text-two">
+                        <p><small>Add the <span>workout now/group class session</span> you wish to do to your cart</small></p>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="iconic icon-three">
+                        <i class="fas fa-mobile-alt fa-2x"></i>
+                    </div>
+                    <div class="texture text-three">
+                        <p><small><span>While paying</span>, apply your pass and get ready to sweat!</small></p>
+                    </div>
+                </div> 
+                <div class="pb-4 know-more">
+                    <button type="button" class="btn btn-danger">KNOW MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid custom-jumbotron">
+        <div class="container container-two">
+            <h1>WORKOUT</h1>
+            <h3 class="pb-4">WHENEVER YOU WANT, WHEREVER YOU LIKE</h3>
+            <form class="form-inline justify-content-center">
+                    <div class="input-group mb-3 w-100 location">
+                        <div class="input-group-prepend workout-location">
+                              <button class="bg-#ccc btn btn-outline-secondary dropdown-toggle cities droping-button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CHOOSE YOUR LOCATION</button>
+                            <div class="dropdown-menu ">
+                                <a class="dropdown-item" href="#">Bengaluru</a>
+                                <a class="dropdown-item" href="#">Delhi</a>
+                                <a class="dropdown-item" href="#">Lucknow</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control search-location" placeholder="SEARCH FOR YOUR FITNESS OPTION">
+                        <div class="input-group-append button-location">
+                            <button class="btn btn-danger buttony" type="button">SEARCH</button>
+                        </div>
+                    </div>       
+            </form>
+        </div>    
+    </div>
+    <div class="container container-three">
+        <div class="row">
+            <div class="col-md-6 offset-md-6 workout-schedule">
+                 <h1 class="text-right">WORKOUT SCHEDULE/ DIET PLAN</h1>
+                <h5 class="text-right text-danger">EAT HEALTHY,STAY FIT</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3-md offset-md-6">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+        </div>
+        <div class="pb-4 flex-button">
+                <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid bg-dark custom-jumbotron-two">
+        <div class="container container-four">
+             <h4 class="pb-4 text-center">FEATURED FITNESS CENTRES AROUND YOU</h4>
+            <div class="row image-scroll">
+                <div class="col-md-3 col-sm-6">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x150" alt="placeholder-image" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">photography</h5>
+                            <hr>
+                            <p class="card-text">
+                                jhjdshjhewjaskwakhfkjehwhfjhjdjnwnxjhijqkwjsknxjbchbwehvbcjenwkjsadndjkwqnjd
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/350x150" alt="placeholder-image" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">photography</h5>
+                                <hr>
+                                <p class="card-text">
+                                    jhjdshjhewjaskwakhfkjehwhfjhjdjnwnxjhijqkwjsknxjbchbwehvbcjenwkjsadndjkwqnjd
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/350x150" alt="placeholder-image" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">photography</h5>
+                                <hr>
+                                <p class="card-text">
+                                    jhjdshjhewjaskwakhfkjehwhfjhjdjnwnxjhijqkwjsknxjbchbwehvbcjenwkjsadndjkwqnjd
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/350x150" alt="placeholder-image" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">photography</h5>
+                                <hr>
+                                <p class="card-text">
+                                    kiqsqksjwdjksqkaoksakdjwdjkwspokxmsnjmmxncbvbuvojifwkindiewkoswkosowscncjjd
+                                </p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="pb-4 container container-five">
+       <div class="row">
+           <div class="col-md-6 image-gap">
+                <img src="https://via.placeholder.com/350x150">
+           </div>
+           <div class="col-md-3 image-gap">
+               <img src="https://via.placeholder.com/350x150">
+           </div>
+           <div class="col-md-3 image-gap">
+               <img src="https://via.placeholder.com/350x150">
+           </div>
+       </div>
+       <hr>
+       <div class="row never-offer">
+           <div class="col-md-6 col-xs-12 bordering-right">
+               <h5>NEVER MISS OUT ON ANY OFFERS.</h5>
+               <p>Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a document or visual presentation.</p>
+               <div class="input-group w-100">
+                        <input type="text" class="form-control" placeholder="ENTER YOUR EMAIL">
+                    <div class="input-group-append">
+                        <button class="ml-2 btn btn-danger button-margin" type="button">SUBSCRIBE</button>
+                    </div>
+                </div>
+           </div>
+           <div class="col-md-6 col-xs-12 fitness">
+                <h5 class="text-right">FITNESS IS JUST A TAB AWAY</h5>
+                <p class="text-right">You can find gyms, zumba,yoga and every other fitness activity around you.</p>
+                    <div class="d-flex justify-content-around kbd">
+                        <h5><kbd>App Store</kbd></h5>
+                        <h5><kbd>Google Play</kbd></h5>
+                    </div>
+           </div>
+       </div>
+   </div>
+   <div class="jumbotron jumbotron-fluid mb-0 custom-jumbotron-white">
+       <div class="container container-six">
+           <h5 class="text-danger text-center">POPULAR LOCATION IN BANGALORE</h5>
+           <P class="text-center">Explore fitness by locality</P>
+           <div class="row custom-height">
+               <div class="col-2">
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+               </div>
+               <div class="col-2">
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+               </div>
+               <div class="col-2">
+                   <p>lucknow</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+               </div>
+               <div class="col-2">
+                   <p>jaipur</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+               </div>
+               <div class="col-2">
+                   <p>gujrat</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+               </div>
+               <div class="col-2">
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+                   <p>delhi</p>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="jumbotron jumbotron-fluid pb-3 bg-black custom-jumbotron-three">
+       <div class="container container-seven">
+            <div class="row">
+                    <div class="col-lg-4 col-xs-8">
+                        <h6>BYG(BOOK YOUR GAME) Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a document or visual presentation. Lorem ipsum is derived from the Latin "dolorem ipsum" roughly translated as "pain itself."</h6>
+                    </div>               
+                    <div class="col-lg-2 col-xs-8 about-us">
+                        <h5>BYG</h5>
+                        <p>About us</p>
+                        <p>Press Release</p>
+                        <p>Life at BYG</p>
+                        <p>Blog</p>
+                        <p>Contact</p>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                        <h4>FITNESS PARTNER IN CITIES</h4>
+                            <div class="row flexible-row">
+                                <div class="col-2 other">
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                </div>
+                                <div class="col-2 other-two">
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                </div>
+                                <div class="col-2 other-three">
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                        <p>delhi</p>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+       </div>
+   </div>
+
+</body>
+</html>

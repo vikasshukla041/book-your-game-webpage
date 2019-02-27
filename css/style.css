@@ -1,0 +1,186 @@
+.navbar-brand img {
+    width: 250px;
+}
+.heading {
+    color: red;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.texture p {
+    line-height: 15px;
+    padding-left: 25px;
+}
+.texture span {
+    color: red;
+}
+.know-more {
+    padding-top: 30px;
+}
+.jumbotron.custom-jumbotron {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.flex-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.jumbotron.custom-jumbotron-two {
+    text-align: center;
+    background: black;
+}
+.jumbotron.custom-jumbotron-three {
+    background: black;
+    line-height:5px;
+}
+.jumbotron.custom-jumbotron-two h4 {
+    color: white;
+}
+.container-five img {
+    width: 100%;
+}
+.container-five .bordering-right {
+    border-right: 1px solid #ccc;
+}
+.container-six .custom-height {
+    line-height: 5px;
+    padding-top: 30px;
+}
+.flex-box {
+    display: flex;
+}
+.custom-jumbotron-three .container-seven {
+    color: white;
+}
+.container-seven .flexible-row {
+    display: flex;
+    justify-content: space-between;
+}
+.grand, .father, .child {
+    display: flex;
+}
+.iconic .texture {
+    display: inline-flex;
+}
+.dropdown {
+      cursor: pointer;
+}
+.container-one li  a{
+      color: black;
+}
+.container-one li a:not(#navbardrop):hover::after {
+      content: '';
+      display: block;
+      height: 1px;
+      background: red;
+      width: 70%;
+      margin: auto;
+}
+.container-one li a.active::after {
+      content: '';
+      display: block;
+      height: 1px;
+      background: red;
+      width: 70%;
+      margin: auto;
+}
+.container-five .bordering-right p {
+    word-break: break-word;
+}
+
+@media screen and (max-width: 640px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+    .container-three .workout-schedule h1 {
+        text-align: center!important;
+    }
+    .workout-schedule h5 {
+        text-align: center!important;
+    }
+    .container-three p {
+        padding: 0px 30px;
+        text-align: center!important;
+    }
+    .container-three .flex-button .btn {
+        margin: auto;
+    }
+    .container-five .never-offer p{
+        padding:0px 20px;
+        text-align:center!important;
+    }
+    .container-five .never-offer h5  {
+        text-align:center!important;
+    }
+    .never-offer .button-margin {
+        margin-bottom: 30px;
+    }
+    .custom-jumbotron-two .container-four .image-scroll {
+        display: flex;
+        overflow: scroll;
+        flex-wrap: nowrap;
+    }
+    .container-five .image-gap {
+        padding-bottom: 10px;
+    }
+    .container-two .location .workout-location {
+        width:100%;
+        height: 60px;
+        background: white;
+        margin-bottom: 10px;
+    }
+    .container-two .location .workout-location .droping-button {
+        width:100%;
+    }
+    .container-two .location .search-location {
+        width:100%;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    .container-two .location .button-location {
+        width: 100%;
+        height: 60px;
+    }
+    .container-two .location .button-location .buttony {
+        width: 100%;
+    }
+    .container-seven .about-us {
+        text-align: center;
+    }
+    .container-one li a.active::after {
+        width: 20%;
+    }
+    .container-one li  a, .droping{
+        text-align: center;
+    }
+    .container-one li a:not(#navbardrop):hover::after {
+      display: none;
+    }
+    .custom-jumbotron-white .container-six {
+        display: none;
+        padding: 0;
+    }
+    .jumbotron.custom-jumbotron-white {
+        padding: 0;
+    }
+    .jumbotron-fluid.custom-jumbotron-three {
+        padding: 0;
+        margin: 0;
+    }
+    .jumbotron.jumbotron-fluid.custom-jumbotron-three {
+        padding-bottom: 0!important;
+    }
+    .custom-jumbotron-three .container-seven {
+        display: none;
+    }
+    .container-five .never-offer .bordering-right {
+        border-bottom: 1px solid #ccc;
+    }
+    .never-offer .fitness h5 {
+        padding-top: 20px;
+    }
+    .container-one .heading {
+        padding: 60px 20px 20px 20px;
+    }
+    
+}
